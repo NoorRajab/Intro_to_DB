@@ -22,7 +22,7 @@ def create_database():
             cursor = db_connection.cursor()
             
             
-            sql_query = f"CREATE DATABASE IF NOT EXISTS {DB_NAME}"
+            sql_query = f"CREATE DATABASE IF NOT EXISTS alx_book_store"
             
             print(f"Attempting to create database '{DB_NAME}'...")
             
